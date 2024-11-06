@@ -1,0 +1,17 @@
+Bubble sort Logic
+bubble sort algorithm is used to sort array and list.
+
+Logic:
+
+So this algorithm works with  two integers 1st one controlls pass (round) and 2nd controlls comparison
+
+for(i=0 --> i = arr.length-1) 
+
+{
+for(j = 0 --> j<arr.length -i-1){
+compare arr[j] and arr[j+1] --> if arr[j] > arr[j+1] swap the elements
+}
+}
+
+Code:
+
